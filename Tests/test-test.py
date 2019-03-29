@@ -27,7 +27,7 @@ def test_string(test_sum_two_strings):
 
 @pytest.fixture()
 def test_sum_two_int():
-    x = 3
+    x = 4
     y = 5
     z = x + y
     return z
